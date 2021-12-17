@@ -67,6 +67,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>FilmAppDataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="filmicerik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="filmicerik.Designer.cs">
+      <DependentUpon>filmicerik.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </Compile>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="filmicerik.resx">
+      <DependentUpon>filmicerik.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

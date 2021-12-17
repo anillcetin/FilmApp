@@ -19,7 +19,7 @@ namespace FilmApp
         }
 
         SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-DG2OBOI;Initial Catalog=FilmApp;Integrated Security=True");
-
+        UsersFrm usr = new UsersFrm();
 
         private void button7_Click(object sender, EventArgs e)
         {
@@ -43,6 +43,8 @@ namespace FilmApp
             baglanti.Close();
 
             MessageBox.Show("Film eklendi...", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+            //usr.filmler.Add()
             
         }
 
@@ -131,5 +133,7 @@ namespace FilmApp
             Form1 frm9 = new Form1();
             frm9.Show();
         }
+
+
     }
 }
