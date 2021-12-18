@@ -206,6 +206,8 @@ namespace FilmApp
             this.Controls.Add(this.icerikismLbl);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(5);
+            this.MaximumSize = new System.Drawing.Size(1080, 846);
+            this.MinimumSize = new System.Drawing.Size(1080, 846);
             this.Name = "filmicerik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Film";
